@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kenny.shoppingcart" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginMenu_"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name=".Seller_Menu"
+            android:label="@string/title_activity_seller__menu" >
+        </activity>
+        <activity
+            android:name=".InsertProduct"
+            android:label="@string/title_activity_insert_product" >
+        </activity>
+        <activity
+            android:name=".UpdateProduct"
+            android:label="@string/title_activity_update_product" >
+        </activity>
+        <activity
+            android:name=".DeleteProduct"
+            android:label="@string/title_activity_delete_product" >
+        </activity>
+        <activity
+            android:name=".Shop"
+            android:label="@string/title_activity_shop" >
+        </activity>
+        <activity
+            android:name=".Shopping_Cart"
+            android:label="@string/title_activity_shopping__cart" >
+        </activity>
+        <activity
+            android:name=".CheckoutPage"
+            android:label="@string/title_activity_checkout_page" >
+        </activity>
+        <activity
+            android:name=".RegisterPage"
+            android:label="@string/title_activity_register_page" >
+        </activity>
+    </application>
+
+</manifest>
